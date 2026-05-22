@@ -1,0 +1,113 @@
+img {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 3px #856363;
+  box-shadow: 0px 0px 20px 0px #000;
+  -moz-box-shadow: 0px 0px 20px 0px #000;
+  -webkit-box-shadow: 0px 0px 20px 0px #000;
+}
+
+.box1 {
+  border-radius: 2%;
+  border: none;
+  text-align: center;
+  width: 300px;
+  height: 750px;
+  font-size: larger;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  background-color: rgba(251, 251, 252, 0.893);
+  box-shadow: 0px 0px 20px 0px #000;
+  -moz-box-shadow: 0px 0px 20px 0px #000;
+  -webkit-box-shadow: 0px 0px 20px 0px #000;
+}
+
+h2 {
+  text-shadow: 2px 5px 20px 10px #000;
+}
+
+body {
+  background-image: url(https://www.fabmood.com/wp-content/uploads/2023/08/blue-wallpaper-1.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.Instagram h3 a {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(221, 42, 123);
+  height: 65px;
+  width: 250px;
+  border: none;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 10px auto;
+  box-shadow: 0px 0px 20px 0px #f12e2e;
+  -moz-box-shadow: 0px 0px 20px 0px #a71f1f;
+  -webkit-box-shadow: 0px 0px 20px 0px #b92c2c;
+
+  animation-duration: 3;
+  animation-name: spin;
+}
+@keyframes glow {
+}
+
+.Tiktok h3 a {
+  text-decoration: none;
+  color: black;
+  background-color: #25f4ee;
+  height: 65px;
+  width: 250px;
+  border: none;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(56, 55, 55);
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 40px auto;
+  box-shadow: 0px 0px 20px 0px #000;
+  -moz-box-shadow: 0px 0px 20px 0px #000;
+  -webkit-box-shadow: 0px 0px 20px 0px #000;
+}
+
+.x h3 a {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(52, 51, 51);
+  height: 65px;
+  width: 250px;
+  border: none;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 10px auto;
+  box-shadow: 0px 0px 20px 0px #000;
+  -moz-box-shadow: 0px 0px 20px 0px #000;
+  -webkit-box-shadow: 0px 0px 20px 0px #000;
+}
