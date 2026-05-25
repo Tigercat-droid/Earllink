@@ -1,5 +1,6 @@
 img {
   border-radius: 50%;
+  transition: 0.4s ease;
   width: 250px;
   height: 250px;
   object-fit: cover;
@@ -9,13 +10,17 @@ img {
   -moz-box-shadow: 0px 0px 20px 0px #000;
   -webkit-box-shadow: 0px 0px 20px 0px #000;
 }
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 30px 5px #ffffff;
+}
 
 .box1 {
   border-radius: 2%;
   border: none;
   text-align: center;
   width: 300px;
-  height: 750px;
+  height: 720px;
   font-size: larger;
   color: rgb(0, 0, 0);
   padding: 20px;
@@ -63,9 +68,7 @@ body {
   box-shadow: 0px 0px 20px 0px #f12e2e;
   -moz-box-shadow: 0px 0px 20px 0px #a71f1f;
   -webkit-box-shadow: 0px 0px 20px 0px #b92c2c;
-
-  animation-duration: 3;
-  animation-name: spin;
+  transition: 0.4s ease;
 }
 @keyframes glow {
 }
@@ -85,12 +88,33 @@ body {
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
-  margin: 40px auto;
+  margin: 00px auto;
   box-shadow: 0px 0px 20px 0px #000;
   -moz-box-shadow: 0px 0px 20px 0px #000;
   -webkit-box-shadow: 0px 0px 20px 0px #000;
+  transition: 0.4s ease;
 }
-
+.Facebook h3 a {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(32, 98, 230);
+  height: 65px;
+  width: 250px;
+  border: none;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0px auto;
+  box-shadow: 0px 0px 20px 0px #1426c7;
+  -moz-box-shadow: 0px 0px 20px 0px #1f33a7;
+  -webkit-box-shadow: 0px 0px 20px 0px #3a2cb9;
+  transition: 0.4s ease;
+}
 .x h3 a {
   text-decoration: none;
   color: black;
@@ -110,4 +134,79 @@ body {
   box-shadow: 0px 0px 20px 0px #000;
   -moz-box-shadow: 0px 0px 20px 0px #000;
   -webkit-box-shadow: 0px 0px 20px 0px #000;
+  transition: 0.4s ease;
+}
+.Instagram h3 a:hover,
+.Tiktok h3 a:hover,
+.x h3 a:hover,
+.Facebook h3 a:hover {
+  transform: scale(1.15);
+
+  img {
+    width: 140px;
+    height: 140px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .Instagram h3 a,
+  .Tiktok h3 a,
+  .x h3 a {
+    font-size: 18px;
+    height: 55px;
+  }
+}
+
+/* =========================
+   MOBILE VIEW
+========================= */
+@media (max-width: 480px) {
+  body {
+    height: auto;
+    padding: 20px;
+  }
+
+  .box1 {
+    width: 90%;
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+  img {
+    width: 160px;
+    height: 160px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .Instagram h3 a,
+  .Tiktok h3 a,
+  .Facebook h3 a,
+  .x h3 a {
+    width: 90%;
+    height: 55px;
+    font-size: 18px;
+  }
+}
+
+/* =========================
+   PC / DESKTOP VIEW
+========================= */
+@media (min-width: 1019px) {
+  .box1 {
+    width: 250px;
+  }
+
+  img {
+    width: 230px;
+    height: 230px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
 }
