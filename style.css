@@ -17,27 +17,35 @@ img:hover {
 
 .box1 {
   border-radius: 2%;
-  border: none;
+    border: 2px solid rgba(232, 83, 255, 0.48);
   text-align: center;
   width: 300px;
   height: 720px;
   font-size: larger;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   padding: 20px;
   margin-bottom: 50px;
   margin-top: 50px;
-  background-color: rgba(251, 251, 252, 0.893);
+  background-color: transparent;
   box-shadow: 0px 0px 20px 0px #000;
   -moz-box-shadow: 0px 0px 20px 0px #000;
   -webkit-box-shadow: 0px 0px 20px 0px #000;
 }
 
 h2 {
-  text-shadow: 2px 5px 20px 10px #000;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 3px #856363;
+  text-shadow: 0px 0px 10px cyan;
+   text-shadow: 0px 0px 20px cyan;
+    text-shadow: 0px 0px 40px cyan;
+     text-shadow: 0px 0px 10px cyan;
 }
 
 body {
-  background-image: url(https://www.fabmood.com/wp-content/uploads/2023/08/blue-wallpaper-1.jpg);
+  background-image: url(https://static.vecteezy.com/system/resources/previews/020/562/068/non_2x/retro-neon-futuristic-for-background-design-vector.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,10 +60,10 @@ body {
 .Instagram h3 a {
   text-decoration: none;
   color: black;
-  background-color: rgb(221, 42, 123);
+  background-color: rgba(221, 42, 123, 0.726);
   height: 65px;
   width: 250px;
-  border: none;
+  border: 2px solid rgb(238, 134, 179);
   border-radius: 25px;
   display: flex;
   justify-content: center;
@@ -75,16 +83,16 @@ body {
 
 .Tiktok h3 a {
   text-decoration: none;
-  color: black;
-  background-color: #25f4ee;
+  color: rgb(255, 254, 254);
+  background-color: #25f4edbf;
   height: 65px;
   width: 250px;
-  border: none;
+  border: 2px solid rgb(111, 207, 248);
   border-radius: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgb(56, 55, 55);
+  color: rgb(251, 251, 251);
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
@@ -97,10 +105,10 @@ body {
 .Facebook h3 a {
   text-decoration: none;
   color: black;
-  background-color: rgb(32, 98, 230);
+  background-color: rgba(32, 98, 230, 0.801);
   height: 65px;
   width: 250px;
-  border: none;
+  border: 2px solid rgb(93, 176, 254);
   border-radius: 25px;
   display: flex;
   justify-content: center;
@@ -118,10 +126,10 @@ body {
 .x h3 a {
   text-decoration: none;
   color: black;
-  background-color: rgb(52, 51, 51);
+  background-color: rgba(52, 51, 51, 0.657);
   height: 65px;
   width: 250px;
-  border: none;
+  border: 2px solid rgb(227, 227, 227);
   border-radius: 25px;
   display: flex;
   justify-content: center;
@@ -136,10 +144,31 @@ body {
   -webkit-box-shadow: 0px 0px 20px 0px #000;
   transition: 0.4s ease;
 }
+/* .nextpage h3 a{
+  text-decoration: none;
+  background-color: rgba(209, 50, 245, 0.25);
+  border: 2px solid rgb(241, 91, 214);
+  height: 45px;
+  width: 150px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 50px auto;
+  box-shadow: 0px 0px 20px 0px #000;
+  -moz-box-shadow: 0px 0px 20px 0px #000;
+  -webkit-box-shadow: 0px 0px 20px 0px #000;
+   transition: 0.4s ease;
+} */
 .Instagram h3 a:hover,
 .Tiktok h3 a:hover,
 .x h3 a:hover,
-.Facebook h3 a:hover {
+.Facebook h3 a:hover,
+.nextpage h3 a:hover {
   transform: scale(1.15);
 
   img {
@@ -153,7 +182,9 @@ body {
 
   .Instagram h3 a,
   .Tiktok h3 a,
-  .x h3 a {
+  .x h3 a, 
+  .Facebook h3 a,
+  .nextpage h3 a {
     font-size: 18px;
     height: 55px;
   }
