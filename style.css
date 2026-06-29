@@ -37,13 +37,13 @@ img:hover {
   box-shadow: 0px 0px 20px 0px #000;
   text-align: center;
   width: auto;
-  height: 900px;
+  height: auto;
   font-size: 20px;
   color: rgb(255, 255, 255);
   padding: min(5em, 5vw); 
   padding: 3vw;
   margin-bottom: 10px;
-  margin-top: 650px;
+  margin-top: 750px;
   height: auto;
   animation-name: fadein;
   animation-duration: 2s;
@@ -214,13 +214,12 @@ body {
   .Instagram h3 a,
   .Tiktok h3 a,
   .x h3 a,
-  .Facebook h3 a,
-  .Gallery h1 a{
+  .Facebook h3 a{
     font-size: 18px;
     height: 55px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 600px) {
   img {
     width: 250px;
     height: auto;
@@ -233,7 +232,7 @@ body {
   .Instagram h3 a,
   .Tiktok h3 a,
   .x h3 a,
-  .Facebook h3 a, .Gallery h1 a {
+  .Facebook h3 a {
     font-size: 18px;
     height: 55px;
   }
